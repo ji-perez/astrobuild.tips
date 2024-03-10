@@ -6,9 +6,9 @@ module.exports = {
 	plugins: [require('prettier-plugin-astro')],
 	overrides: [
 		{
-			files: '**/*.astro',
+			files: "**/*.astro",
 			options: {
-				parser: 'astro',
+				parser: "astro",
 			},
 		},
 	],
